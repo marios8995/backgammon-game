@@ -1,0 +1,31 @@
+# This creates a standard Delphi/C++Builder ignore list
+@"
+# Compiled files
+*.dcu
+*.obj
+*.hpp
+*.ddp
+*.dpc
+*.dcp
+*.bpl
+*.dcl
+*.dres
+*.stat
+
+# Project specific
+*.~*
+*.local
+*.identcache
+*.tvsconfig
+*.skincfg
+
+# Executables
+__history/
+__recovery/
+ModelSupport_*/
+Win32/
+Win64/
+Debug/
+Release/
+*.exe
+"@ | Out-File -Encoding ascii .gitignore
